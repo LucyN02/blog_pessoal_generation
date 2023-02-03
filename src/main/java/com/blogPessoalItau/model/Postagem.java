@@ -7,6 +7,10 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
+/*estamos estabelecendo que essa classe é uma entidade,
+em que será usado para a modelagem dos dados da tabela, ou seja, os atributos dessa entidade.
+Uma entidade é uma representação de um conjunto de informações sobre determinado conceito do sistema.
+Toda entidade possui ATRIBUTOS, que são as informações que referenciam a entidade.*/
 @Entity
 @Table(name = "tb_postagem")
 public class Postagem {
