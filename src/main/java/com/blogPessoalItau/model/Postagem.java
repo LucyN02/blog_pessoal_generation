@@ -35,7 +35,7 @@ public class Postagem {
     @JsonIgnoreProperties("postagem")
     private Tema tema;
 
-    @ManyToOne(cascade = CascadeType.REMOVE)
+    @ManyToOne
     @JsonIgnoreProperties("postagem")
     private Usuario usuario;
 

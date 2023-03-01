@@ -7,7 +7,6 @@ public class UserLogin {
     private Long id;
     private String name;
     private String usuario;
-
     private String senha;
     private String foto;
     private String token;
